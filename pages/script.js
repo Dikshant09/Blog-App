@@ -11,17 +11,6 @@ function btnClickHandler() {
       for (var i = 0; i < dataObj.length; i++) {
         dataBro.push(dataObj[i]);
       }
-    //   let SuccessMessage = document.getElementById("SuccessMessage");
-    //   SuccessMessage.style.width = "50%";
-    //   SuccessMessage.style.display = "flex%";
-    //   SuccessMessage.style.margin = "20px";
-
-    //   SuccessMessage.style.alignItems = "center";
-    //   SuccessMessage.style.justifyItems = "center";
-    //   SuccessMessage.style.justifyContent = "center";
-
-
-    //     SuccessMessage.innerHTML = "Data Fetched Successfully!";
         document.getElementById("popBtn").style.display = "inline";
     }
 };
