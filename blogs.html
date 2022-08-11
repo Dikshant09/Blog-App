@@ -6,70 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogs</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <script src="script.js"></script>
     <navbar class="navbarContainer">
       <a href="index.html">
         <div>
-          <img src="logo.png" alt="logo" width="50px" height="50px">
+          <img src="logo.png" alt="logo" width="50px" height="50px" />
         </div>
       </a>
-        <div>
-          <a href="index.html" class="linkStyle"><span class="navbarItem">Home</span></a>
-          <a href="blogs.html" class="linkStyle"><span class="navbarItem">Blogs</span></a>
-          <a href="about.html" class="linkStyle"><span class="navbarItem" class="linkStyle">About</span></a>
-          <a href="createBlog.html" class="linkStyle"><span class="navbarItem">Create Blog</span></a>
-        </div>
-        </navbar>
+      <div>
+        <a href="index.html" class="linkStyle"
+          ><span class="navbarItem">Home</span></a
+        >
+        <a href="blogs.html" class="linkStyle"
+          ><span class="navbarItem">Blogs</span></a
+        >
+        <a href="about.html" class="linkStyle"
+          ><span class="navbarItem" class="linkStyle">About</span></a
+        >
+        <a href="createBlog.html" class="linkStyle"
+          ><span class="navbarItem">Create Blog</span></a
+        >
+      </div>
+    </navbar>
 
     <div class="container">
-        <h1>Blogs</h1>
-          <div class="buttonContainer">
-            <button
-            type="button"
-            id="fetchBtn"
-            class="button"
-            onclick="btnClickHandler()"
-            >
-            Fetch Data
-            </button>
-            <button
-              type="button"
-              id="popBtn"
-              class="button"
-              onclick="populateBlogs()"
-              style="display: none"
-              >
-              Populate
-            </button>
-            <button
-            type="button"
-            class="button"
-            id="clearBtn"
-            onclick="clearBlogs()"
-            style="display: none"
-            >
-            Clear
-          </button>
-        </div>
-        
-        <div class="cardContainer" id="parentComponent">
-          <div class="card-body cardBox" id="cardComponent1"></div>
-          <div class="card-body cardBox" id="cardComponent2"></div>
-          <div class="card-body cardBox" id="cardComponent3"></div>
-          <div class="card-body cardBox" id="cardComponent4"></div>
-          <div class="card-body cardBox" id="cardComponent5"></div>
-          <div class="card-body cardBox" id="cardComponent6"></div>
-          <div class="card-body cardBox" id="cardComponent7"></div>
-          <div class="card-body cardBox" id="cardComponent8"></div>
-          <div class="card-body cardBox" id="cardComponent9"></div>
-        </div>
+      <h1>Blogs</h1>
+      <div class="buttonContainer">
+        <button
+          type="button"
+          id="fetchBtn"
+          class="button"
+          onclick="btnClickHandler()"
+        >
+          Fetch Data
+        </button>
+        <button
+          type="button"
+          id="popBtn"
+          class="button"
+          onclick="populateBlogs()"
+          style="display: none"
+        >
+          Populate
+        </button>
+        <button
+          type="button"
+          class="button"
+          id="clearBtn"
+          onclick="clearBlogs()"
+          style="display: none"
+        >
+          Clear
+        </button>
+      </div>
+
+      <div class="cardContainer" id="parentComponent">
+        <div class="card-body cardBox" id="cardComponent1"></div>
+        <div class="card-body cardBox" id="cardComponent2"></div>
+        <div class="card-body cardBox" id="cardComponent3"></div>
+        <div class="card-body cardBox" id="cardComponent4"></div>
+        <div class="card-body cardBox" id="cardComponent5"></div>
+        <div class="card-body cardBox" id="cardComponent6"></div>
+        <div class="card-body cardBox" id="cardComponent7"></div>
+        <div class="card-body cardBox" id="cardComponent8"></div>
+        <div class="card-body cardBox" id="cardComponent9"></div>
+      </div>
     </div>
-      <footer class="footer">
-        <div>@2022 Dikshant</div>
-        <div>All rights reserved</div>
+    <footer class="footer">
+      <div>@2022 Dikshant</div>
+      <div>All rights reserved</div>
     </footer>
   </body>
 </html>

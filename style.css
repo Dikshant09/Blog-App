@@ -14,23 +14,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* justify-items: center; */
 }
-
-/* .buttonContainer{
-    margin: 2rem;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-} */
 
 
 .cardBox{
     width: 230px;
     height: 230px;
-    /* font-size: 10px; */
     box-shadow: #01bdae;
     display: flex;
     align-items: center;
@@ -40,8 +29,6 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 15px;
-    /* margin-bottom: 2rem; */
-    /* border: 2px solid red; */
 }
 .cardBox:hover{
     scale: 1.1;
@@ -68,7 +55,6 @@
 @media screen and (max-width: 1200px) {
     #parentComponent{
         grid-template-columns: 1fr 1fr;
-        /* flex-wrap: wrap; */
     }
 }
 @media screen and (max-width: 500px) {
@@ -81,8 +67,6 @@
 /* About Page */
 .aboutContainer{
     display: flex;
-    /* width: 100vw; */
-    /* height: 80vh; */
     margin: 20px;
     font-size: 1.4rem;
     flex-direction: column;
@@ -273,7 +257,6 @@
   }
   @media screen and (max-width: 500px){
     .button{
-        /* margin-left: -5rem; */
         display: flex;
         justify-items: center;
         align-items: center;
@@ -297,72 +280,6 @@
     height: 100%;
 }
 
-
-
-
-.app__contact{
-    flex: 1;
-    width: 100%;
-    flex-direction: column;
-}
-
-.app__contact-cards{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    margin: 4rem 2rem 2rem;
-
-    
-    @media screen and (max-width: 768px){
-        width: 100%;
-    }
-}
-
-.app__contact-card{
-    display: flex;
-    flex-direction: row;
-    justify-self: flex-start;
-    align-items: center;
-
-    margin: 1rem 2rem;
-
-    padding: 1rem;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: #fef4f5;
-
-    transition: all 0.3s ease-in-out;
-    
-
-    
-    @media screen and (max-width: 450px){
-        width: 100%;
-    }
-}
-.app__contact-card:hover{
-    box-shadow: 0 0 25px #a7c7cf;
-}
-
-.app__contact-card .p{
-        font-weight: 600;
-}
-.app__contact-cards .app__contact-card:last-child{
-    background-color: #f2f7fb;
-}
-
-.app__contact-form .div{
-    width: 100%;
-    margin: 0.75rem 0;
-    margin-left: 5rem;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: var(--primary-color);
-
-    transition: all 0.3s ease-in-out;
-
-}
 
 .input .textarea{
     width: 97%;
