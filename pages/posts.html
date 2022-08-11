@@ -9,21 +9,25 @@
   </head>
   <body>
     <script src="script.js"></script>
-
     <navbar class="navbarContainer">
-        <a href="index.html"><span class="navbarItem">Home</span></a>
-        <a href="posts.html"><span class="navbarItem">Posts</span></a>
-        <a href="about.html"><span class="navbarItem">About</span></a>
-        <a href="createBlog.html"><span class="navbarItem">Create Blog</span></a>
-    </navbar>
+        <div>
+          <img src="logo.png" alt="logo" width="50px" height="50px">
+        </div>
+        <div>
+          <a href="index.html" class="linkStyle"><span class="navbarItem">Home</span></a>
+          <a href="posts.html" class="linkStyle"><span class="navbarItem">Posts</span></a>
+          <a href="about.html" class="linkStyle"><span class="navbarItem" class="linkStyle">About</span></a>
+          <a href="createBlog.html" class="linkStyle"><span class="navbarItem">Create Blog</span></a>
+        </div>
+        </navbar>
 
     <div class="container">
-        <h1>Blog App</h1>
+        <h1>Blogs</h1>
           <div class="buttonContainer">
             <button
             type="button"
             id="fetchBtn"
-            class="btn btn-primary mx-4"
+            class="button"
             onclick="btnClickHandler()"
             >
             Fetch Data
@@ -31,7 +35,7 @@
             <button
               type="button"
               id="popBtn"
-              class="btn btn-secondary"
+              class="button"
               onclick="populatePosts()"
               style="display: none"
               >
@@ -39,8 +43,8 @@
             </button>
             <button
             type="button"
+            class="button"
             id="clearBtn"
-            class="btn btn-secondary mx-4"
             onclick="clearPosts()"
             style="display: none"
             >
@@ -60,9 +64,9 @@
           <div class="card-body cardBox" id="cardComponent9"></div>
         </div>
     </div>
-
-      <!-- <div class="alert alert-success" role="alert" id="SuccessMessage" style="height: px;"></div> -->
-      <!-- <h1>Posts</h1>
-      <ul id="list"></ul> -->
+      <footer class="footer">
+        <div>@2022 Dikshant</div>
+        <div>All rights reserved</div>
+    </footer>
   </body>
 </html>
