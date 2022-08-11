@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <navbar class="navbarContainer">
+        <a href="index.html"><span class="navbarItem">Home</span></a>
+        <a href="posts.html"><span class="navbarItem">Posts</span></a>
+        <a href="about.html"><span class="navbarItem">About</span></a>
+        <a href="createBlog.html"><span class="navbarItem">Create Blog</span></a>
+    </navbar>
+
+    <div class="container">
+        <h1>Blog App</h1>
+          <div class="buttonContainer">
+            <button
+            type="button"
+            id="fetchBtn"
+            class="btn btn-primary mx-4"
+            onclick="btnClickHandler()"
+            >
+            Fetch Data
+            </button>
+            <button
+              type="button"
+              id="popBtn"
+              class="btn btn-secondary"
+              onclick="populatePosts()"
+              style="display: none"
+              >
+              Populate
+            </button>
+            <button
+            type="button"
+            id="clearBtn"
+            class="btn btn-secondary mx-4"
+            onclick="clearPosts()"
+            style="display: none"
+            >
+            Clear
+          </button>
+        </div>
+        
+        <div class="cardContainer" id="parentComponent">
+          <div class="card-body cardBox" id="cardComponent1"></div>
+          <div class="card-body cardBox" id="cardComponent2"></div>
+          <div class="card-body cardBox" id="cardComponent3"></div>
+          <div class="card-body cardBox" id="cardComponent4"></div>
+          <div class="card-body cardBox" id="cardComponent5"></div>
+          <div class="card-body cardBox" id="cardComponent6"></div>
+          <div class="card-body cardBox" id="cardComponent7"></div>
+          <div class="card-body cardBox" id="cardComponent8"></div>
+          <div class="card-body cardBox" id="cardComponent9"></div>
+        </div>
+    </div>
+
+      <!-- <div class="alert alert-success" role="alert" id="SuccessMessage" style="height: px;"></div> -->
+      <!-- <h1>Posts</h1>
+      <ul id="list"></ul> -->
+  </body>
+</html>
