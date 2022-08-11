@@ -44,7 +44,7 @@ function popHandler(key){
     list.innerHTML = str;
 }
 
-function populatePosts(){
+function populateBlogs(){
     document.getElementById("parentComponent").style.display = "grid";    
     for(let i = 1; i < 10; i++){
         popHandler(i);
@@ -53,7 +53,7 @@ function populatePosts(){
     document.getElementById("clearBtn").style.display = "inline";
 }
 
-function clearPosts(){
+function clearBlogs(){
     dataBro = [];
     document.getElementById("clearBtn").style.display = "none";
     document.getElementById("popBtn").style.display = "none";
