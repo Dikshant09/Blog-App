@@ -177,6 +177,43 @@
     }
 }
 
+@media screen and (max-width: 423px) {
+    /* .navbarContainer{
+        justify-content: center;
+    } */
+    .linkStyle span{
+        font-size: 1rem;
+        margin-right: 0.3rem;
+    }
+
+    .linkStyle:hover{
+        color: black;
+        font-size: 1.2rem;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .aboutContainer h2{
+        font-size: 1.5rem;
+    }
+
+    .button{
+        font-size: 1.5rem;
+    }
+
+    .aboutTextArea{
+        font-size: 1.2rem;
+        width: 65%;
+    }
+
+    .button{
+        font-size: 0.4rem;
+    }
+
+    .form h2{
+        font-size: 0.3rem;
+    }
+}
+
 
 
 .navbarItem{
