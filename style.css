@@ -279,21 +279,3 @@
     width: 100%;
     height: 100%;
 }
-
-
-.input .textarea{
-    width: 97%;
-    padding: 0.95rem;
-    border: none;
-    border-radius: 7px;
-    background-color: var(--primary-color);
-
-    font-family: var(--font-base);
-    color: var(--secondary-color);
-    outline: none;
-    
-    
-}
-.input .textarea :hover{
-    box-shadow: 0 0 25px #a7c7cf;
-}

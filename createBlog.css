@@ -17,6 +17,17 @@
       2px 2px 5px rgba(94, 104, 121, 0.3);
     position: relative;
   }
+  @media screen and (max-width: 600px){
+    .form {
+      width: 95%;
+      padding: 2rem;
+      height: 70%;
+    }
+    .form h2 {
+      font-size: 15px;
+      margin-bottom: 1rem;
+    }
+  }
   .form h2 {
     font-size: 35px;
     margin-bottom: 1.5rem;

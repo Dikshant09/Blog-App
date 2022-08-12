@@ -1,4 +1,7 @@
+// Data Container
 let dataBro = [];
+
+// Data Fetching Function
 function btnClickHandler() {
   var xhr = new XMLHttpRequest();
   console.log(xhr);
@@ -22,6 +25,7 @@ xhr.open("GET", API_URL);
   console.log("We are done fetching data!");
 }
 
+// Data Populate Helper Function
 function popHandler(key){
     let currentElement = `cardComponent${key}`;
     let list = document.getElementById(currentElement);
@@ -33,6 +37,7 @@ function popHandler(key){
     list.innerHTML = str;
 }
 
+// Data Populate Driver Function
 function populateBlogs(){
     document.getElementById("parentComponent").style.display = "grid";    
     for(let i = 1; i < 10; i++){
