@@ -181,9 +181,12 @@
     .navbarContainer{
         justify-content: center;
     }
+    .navbarContainer img{
+        display: none;
+    }
     .linkStyle span{
         font-size: 1.2rem;
-        margin-right: 0.3rem;
+        /* margin-right: 0.3rem; */
     }
 
     .linkStyle:hover{
@@ -212,11 +215,14 @@
     .form h2{
         font-size: 0.3rem;
     }
-    .landingContainer{
-        width: 80%;
-    }
+}
 
-    .landingContainer h
+@media screen and (max-width: 800px) {
+    .navbarContainer{
+        /* display: flex; */
+        justify-content: space-between;
+        /* flex-direction: column; */
+    }
 }
 
 
