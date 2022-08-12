@@ -178,17 +178,17 @@
 }
 
 @media screen and (max-width: 423px) {
-    /* .navbarContainer{
+    .navbarContainer{
         justify-content: center;
-    } */
+    }
     .linkStyle span{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-right: 0.3rem;
     }
 
     .linkStyle:hover{
         color: black;
-        font-size: 1.2rem;
+        font-size: 1.35rem;
         transition: 0.3s ease-in-out;
     }
     
@@ -212,6 +212,11 @@
     .form h2{
         font-size: 0.3rem;
     }
+    .landingContainer{
+        width: 80%;
+    }
+
+    .landingContainer h
 }
 
 
